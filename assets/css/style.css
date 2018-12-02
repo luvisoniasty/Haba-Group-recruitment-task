@@ -343,6 +343,8 @@ footer {
     height: 35px;
     border: none;
     cursor: pointer;
+    background-color: #3F5866;
+    color: #fff;
 }
 
 .contact-form button:hover {
@@ -350,7 +352,7 @@ footer {
     color: #fff;
 }
 
-/* MOBILE */
+/* SMALLER DEVICES */
 
 @media all and (max-width:730px) {
 
@@ -519,5 +521,48 @@ footer {
 
     .main-footer-menu li, .secondary-footer-menu li{
         margin-right: 15px;
+    }
+}
+
+/* MOBILE */
+
+@media all and (max-width:480px) {
+    /* HERO SECTION */
+
+    .hero .center-wrap {
+        top: 20%;
+    }
+
+    .hero-h1 h1 { 
+        font-size: 3rem;
+    }
+
+    .hero-h1 h2 { 
+        font-size: 2.5rem;
+    }
+
+    /* FRUIT LIST */
+
+    .fruitPair {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fruit {
+        width: 100%;
+    }
+
+    .fruit img {
+        height: 100%;
+    }
+
+    /* FOOTER */
+
+    .main-footer-menu, .secondary-footer-menu {
+        font-size: 0.8rem;
+    }
+
+    .contact-form {
+        text-align: center;
     }
 }
