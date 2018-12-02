@@ -410,11 +410,13 @@ footer {
 
     .showNavigation, .showNavigation ul {
         margin-top: 0;
+        padding-left: 0;
     }
 
     .showNavigation ul li {
         width: 100%;
         text-align: center;
+        margin-right: 0;
     }
 
     .showNavigation ul li a {
@@ -515,18 +517,23 @@ footer {
         border-right: none;
     }
 
-    .main-footer-menu {
+    .main-footer-menu, .footer-logo {
         margin: 0;
     }
 
-    .main-footer-menu li, .secondary-footer-menu li{
+    .main-footer-menu li, .secondary-footer-menu li {
         margin-right: 15px;
+    }
+
+    .footer-logo .logo {
+        padding-left: 0;
     }
 }
 
 /* MOBILE */
 
 @media all and (max-width:480px) {
+
     /* HERO SECTION */
 
     .hero .center-wrap {
